@@ -9,7 +9,7 @@ class StudentController {
                 .email()
                 .required(),
             age: Yup.number().required(),
-            weigth: Yup.number().required(),
+            weight: Yup.number().required(),
             height: Yup.number().required(),
         });
 
